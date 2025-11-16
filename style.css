@@ -35,6 +35,9 @@ main .ctn .img {
   height: 100%;
   background-color: gold;
   border-radius: 50%;
+  background-image: url('./images/chennai.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 main .ctn .text {
