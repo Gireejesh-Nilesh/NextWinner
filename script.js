@@ -60,7 +60,7 @@ let team = [
     Captain: "Sanju Samson",
     win: 0,
     primary: "Pink",
-    secondary: "skyblue",
+    secondary: "blue",
     image: "rr.webp",
   },
   {
@@ -95,6 +95,7 @@ btn.addEventListener("click", function () {
   captain.textContent = selected.Captain;
   wins.textContent = selected.win;
   ctn.style.backgroundColor = selected.primary;
+  ctn.style.color = selected.secondary;
 
   main.style.background = `linear-gradient(to left, ${selected.primary} 10%, ${selected.secondary}) 90%`;
   btn.style.background = `linear-gradient(45deg, ${selected.primary}, ${selected.secondary})`;
